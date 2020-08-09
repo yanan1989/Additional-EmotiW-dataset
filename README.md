@@ -32,6 +32,4 @@ publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 series = {ICMI ’20}
 }
-
-
 ```
