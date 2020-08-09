@@ -5,15 +5,15 @@ Linguistic contextual information contains lots of meaningful representation for
 As shown in the following figure, There are some samples from GAF 3.0 validation dataset. The description is annotated in Japanese language and added to the training and validation dataset. A high score indicates strong cohesion among people shown in the image. 
 <div align="center"><img src="./GAF-sample.png" width="640px"></div>
 
-We also provide english text which is converted from japanese text using Goolge translation API. ~~Besides, we extract BERT work embedding features stored in the H5 file so that you can adapt your work easily.~~  
-~~* **train-bert-jp.h5/valid-bert-jp.h5:** word embedding is extracted using [the pre-trained BERT model provided by kyoto university](http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT%E6%97%A5%E6%9C%AC%E8%AA%9EPretrained%E3%83%A2%E3%83%87%E3%83%AB).~~
-~~* **train-bert-en.h5/valid-bert-en.h5:** word embedding is extracted using [BERT pre-trained model provided by Google](https://github.com/google-research/bert).~~
+We also provide english text which is converted from japanese text using Goolge translation API. Besides, we extract BERT work embedding features stored in the H5 file so that you can adapt your work easily. Due to the large size of the BERT feature, we send the download link to anyone who needs it.
+* **train-bert-jp.h5/valid-bert-jp.h5:** word embedding is extracted using [the pre-trained BERT model provided by kyoto university](http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT%E6%97%A5%E6%9C%AC%E8%AA%9EPretrained%E3%83%A2%E3%83%87%E3%83%AB).
+* **train-bert-en.h5/valid-bert-en.h5:** word embedding is extracted using [BERT pre-trained model provided by Google](https://github.com/google-research/bert).
 
 ### Citations
 We only release the additional description text data, if you want to utilize our description text with GAF 3.0, you need to connect [EmotiW officer](https://sites.google.com/view/emotiw2019/organizers?authuser=0) to get GAF 3.0 dataset.  And don't forget to refer the following papers.
 
 ```BibTeX
-@INPROCEEDINGS{8852184,
+@INPROCEEDINGS{gaf,
   author={S. {Ghosh} and A. {Dhall} and N. {Sebe} and T. {Gedeon}},
   booktitle={2019 International Joint Conference on Neural Networks (IJCNN)}, 
   title={Predicting Group Cohesiveness in Images}, 
@@ -24,7 +24,7 @@ We only release the additional description text data, if you want to utilize our
 ```
 
 ```BibTeX
-@inproceedings{10.1145/3340555.3355720,
+@inproceedings{ldnn,
 author = {Wang, Yanan and Wu, Jianming and Huang, Jinfa and Hattori, Gen and Takishima, Yasuhiro and Wada, Shinya and Kimura, Rui and Chen, Jie and Kurihara, Satoshi},
 title = {LDNN: Linguistic Knowledge Injectable Deep Neural Network for Group Cohesiveness Understanding},
 year = {2020},
