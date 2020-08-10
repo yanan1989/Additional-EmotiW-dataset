@@ -3,7 +3,7 @@ Additional datasets for the group-based cohesion and emotion understanding tasks
 ## Group-based Cohesion Prediction (EmotiW2019)
 Linguistic contextual information contains lots of meaningful representation for analyzing group cohesion levels. We manually add japanese text to describe the image of GAF Cohesion dataset from human interaction viewpoint.　<br><br>
 As shown in the following figure, There are some samples from GAF 3.0 validation dataset. The description is annotated in Japanese language and added to the training and validation dataset. A high score indicates strong cohesion among people shown in the image. 
-<div align="center"><img src="./GAF-sample.png" width="640px"></div>
+<div align="center"><img src="./GAF-sample.jpg" width="640px"></div>
 
 We also provide english text which is converted from japanese text using Goolge translation API. Besides, we extract BERT work embedding features stored in the H5 file so that you can adapt your work easily. Due to the large size of the BERT feature, we send the download link to anyone who needs it.
 * **train-bert-jp.h5/valid-bert-jp.h5:** word embedding is extracted using [the pre-trained BERT model provided by kyoto university](http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT%E6%97%A5%E6%9C%AC%E8%AA%9EPretrained%E3%83%A2%E3%83%87%E3%83%AB).
