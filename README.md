@@ -33,3 +33,5 @@ address = {New York, NY, USA},
 series = {ICMI ’20}
 }
 ```
+
+## Audio-video Group Emotion Recognition (EmotiW2020)
