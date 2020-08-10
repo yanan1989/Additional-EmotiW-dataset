@@ -35,3 +35,28 @@ series = {ICMI ’20}
 ```
 
 ## Audio-video Group Emotion Recognition (EmotiW2020)
+We mannualy describe the video of the VGAF dataset in Japanese language. VGAF is a video dataset and used for predicting group emotion in the video.  
+We only provide additional description data at here, and you can get VGAF dataset by connecting [EmotiW officer](https://sites.google.com/view/emotiw2020/organizers?authuser=0). 
+
+The BERT word embedding features of descriptions also can be downloaded if you comment that you need it. The following H5 file you would get it. The word embedding is extracted using [the pre-trained BERT model provided by kyoto university](http://nlp.ist.i.kyoto-u.ac.jp/index.php?BERT%E6%97%A5%E6%9C%AC%E8%AA%9EPretrained%E3%83%A2%E3%83%87%E3%83%AB).
+* **train-bert-jp-d768-VGAF.h5** 
+* **valid-bert-jp-d768-VGAF.h5** 
+
+### Citations
+If you use VGAF in your work, please don't forget refer these papers in your work.
+
+```BibTeX
+@inproceedings{sharma2019automatic,
+  title={Automatic Group Level Affect and Cohesion Prediction in Videos},
+  author={Sharma, Garima and Ghosh, Shreya and Dhall, Abhinav},
+  booktitle={2019 8th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)},
+  pages={161--167},
+  year={2019},
+  organization={IEEE}
+}
+```
+
+
+## Contact
+
+Please contact Abhinav Dhall(abhinav.dhall@monash.edu) and Garima Sharma(garima.sharma1@monash.edu) for questions about the GAF 3.0 and VGAF dataset.
