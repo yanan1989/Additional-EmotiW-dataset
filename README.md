@@ -58,5 +58,4 @@ If you use VGAF in your work, please don't forget refer these papers in your wor
 
 
 ## Contact
-
-Please contact Abhinav Dhall(abhinav.dhall@monash.edu) and Garima Sharma(garima.sharma1@monash.edu) for questions about the GAF 3.0 and VGAF dataset.
+Please contact Abhinav Dhall(abhinav.dhall@monash.edu) and Garima Sharma(garima.sharma1@monash.edu) for questions about GAF 3.0 and VGAF dataset including the raw images and videos. And contact Yanan Wang(wa-yanan@kddi-research.jp) for quesions about the additional linguistic data of them.
