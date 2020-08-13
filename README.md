@@ -55,7 +55,16 @@ If you use VGAF in your work, please don't forget refer these papers in your wor
   organization={IEEE}
 }
 ```
-
+```BibTeX
+@inproceedings{wang@injection,
+  title={Implicit Knowledge Injectable Cross Attention Audiovisual Model for Group Emotion Recognition},
+  author={Yanan Wang, Jianming Wu, Panikos Heracleous, Shinya Wada, Rui Kimura, and Satoshi Kurihara},
+  year = {2020},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  series = {ICMI ’20}
+}
+```
 
 ## Contact
 Please contact Abhinav Dhall(abhinav.dhall@monash.edu) and Garima Sharma(garima.sharma1@monash.edu) for questions about GAF 3.0 and VGAF dataset including the raw images and videos. And contact Yanan Wang(wa-yanan@kddi-research.jp) for quesions about the additional linguistic data of them.
